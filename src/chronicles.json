@@ -1,0 +1,113 @@
+{
+	"chronicles":{
+
+		"name": "Adam",
+		"mother": null,
+		"decription": "First man",
+		"children": [
+			{
+				"name": "Cain",
+				"mother": "Eve",
+				"decription": null,
+				"children": [
+					
+				]
+			},
+			{
+				"name": "Abel",
+				"mother": "Eve",
+				"decription": null,
+				"children": [
+					
+				]
+			},
+			{
+				"name": "Seth",
+				"mother": "Eve",
+				"decription": null,
+				"children": [
+					{
+						"name": "Enosh",
+						"mother": null,
+						"decription": null,
+						"children": [
+							{
+								"name": "Kenan",
+								"mother": null,
+								"decription": null,
+								"children": [
+									{
+										"name": "Mahalalel",
+										"mother": null,
+										"decription": null,
+										"children": [
+											{
+												"name": "Jared",
+												"mother": null,
+												"decription": null,
+												"children": [
+													{
+														"name": "Enoch",
+														"mother": null,
+														"decription": null,
+														"children": [
+															{
+																"name": "Methuselah",
+																"mother": null,
+																"decription": null,
+																"children": [
+																	{
+																		"name": "Lamech",
+																		"mother": null,
+																		"decription": null,
+																		"children": [
+																			{
+																				"name": "Noah",
+																				"mother": null,
+																				"decription": null,
+																				"children": [
+																					{
+																						"name": "Shem",
+																						"mother": null,
+																						"decription": null,
+																						"children": [
+																							
+																						]
+																					},
+																					{
+																						"name": "Ham",
+																						"mother": null,
+																						"decription": null,
+																						"children": [
+																							
+																						]
+																					},
+																					{
+																						"name": "Japheth",
+																						"mother": null,
+																						"decription": null,
+																						"children": [
+																							
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]			
+															}
+														]
+													}
+												]			
+											}
+										]
+									}
+								]			
+							}
+						]
+					}
+				]			
+			}
+		]	
+	}
+}
