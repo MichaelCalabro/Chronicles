@@ -1,31 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import chronicles from './chronicles.json';
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-
-      {/* <TreeString/> */}
-
-
-      <TreeList/>
-
+      <div id="root">
+        <TreeNode id="node" node={chronicles.chronicles}/>
+      </div>
     </div>
   );
 }
@@ -39,44 +21,61 @@ function TreeString(props){
 }
 
 
-function TreeList(props){
+class TreeNode extends React.Component{
 
-  const cr = chronicles.chronicles;
-  const children = cr.children.map((child) =>
-    <li>{TreeNode(child)}</li>
-  );
+  constructor(props){
+    super(props);
 
+    this.state = {
+      rootNode : props.node,
+      currentNode : props.node,
+      previousNode : null
+    }
 
-  return(
-    <div>
-      <ul>
-        <li>{cr.name}</li>
-        <li>{cr.mother}</li>
-        <li>{cr.decription}</li>
-        <ul>{children}</ul>
-      </ul>
+  }
+
+  render(){
+    const name = this.state.currentNode.name;
+    const mother = this.state.currentNode.mother;
+    const desc = this.state.currentNode.decription;
+    const children = this.state.currentNode.children.map((child) =>
+      // <li><TreeNode node={child}/></li>
+      <li>{child.name} 
+        <button onClick={() => this.goToChild(child)}>Expand</button>    
+      </li>
+    );
+
+    return(
+      <div>
+
+        <h2>{name}</h2>
+        <div>Mother: {mother}</div>
+        <div>Description: {desc}</div>
+        <ul>Children: {children}</ul>
+
+      <button onClick={() => this.returnToRoot()}>Return to Adam</button>
+
     </div>
-  )
+    )
+  }
 
-}
 
-function TreeNode(props){
+  goToChild(newNode){
+    this.setState({
+      previousNode : this.state.currentNode, 
+      currentNode: newNode
+    });
+  }
 
-  const children = props.children.map((child) =>
-    <li>{TreeNode(child)}</li>
-  );
+  returnToRoot(){
+    this.setState({
+      previousNode : null, 
+      currentNode: this.state.rootNode
+    });
 
+  }
   
-  return(
-    <div>
-      <ul>
-        <li>{props.name}</li>
-        <li>{props.mother}</li>
-        <li>{props.decription}</li>
-        <ul>{children}</ul>
-      </ul>
-    </div>
-  )
+
 }
 
 
