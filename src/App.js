@@ -5,21 +5,14 @@ import chronicles from './chronicles.json';
 function App() {
   return (
     <div className="App">
-      <div id="root">
-        <TreeNode id="node" node={chronicles.chronicles}/>
-      </div>
+
+
+      <TreeNode node={chronicles.chronicles}/>
+
+      
     </div>
   );
 }
-
-
-
-function TreeString(props){
-  return(
-    <div>{JSON.stringify(chronicles)}</div>
-  )
-}
-
 
 class TreeNode extends React.Component{
 
@@ -36,24 +29,37 @@ class TreeNode extends React.Component{
 
   render(){
     const name = this.state.currentNode.name;
+    const father = this.state.previousNode != null ? this.state.previousNode.name : null;
     const mother = this.state.currentNode.mother;
     const desc = this.state.currentNode.decription;
     const children = this.state.currentNode.children.map((child) =>
-      // <li><TreeNode node={child}/></li>
-      <li>{child.name} 
-        <button onClick={() => this.goToChild(child)}>Expand</button>    
-      </li>
+
+      (child.mother != null ? 
+        <li>(via {child.mother}) --
+          <button className="Button Node" onClick={() => this.goToChild(child)}>{child.name}</button>    
+        </li>
+        :  
+        <li>
+          <button className="Button Node" onClick={() => this.goToChild(child)}>{child.name}</button>    
+        </li>
+      )
     );
 
     return(
-      <div>
+      <div className="Page">
 
-        <h2>{name}</h2>
-        <div>Mother: {mother}</div>
-        <div>Description: {desc}</div>
-        <ul>Children: {children}</ul>
+        <div className="Node">
+          <h2 id="name">{name}</h2>
+          <p id="father">Father: {father}</p>
+          <p id="mother">Mother: {mother != null ? mother : '?'}</p>
+          <p id="description">Description: {desc}</p>
+        </div>
+        <div className="Child-List">
+          <p>Children:</p>
+          <ul>{children}</ul>
+        </div>
 
-      <button onClick={() => this.returnToRoot()}>Return to Adam</button>
+      <button className="Button" onClick={() => this.returnToRoot()}>Return to Adam</button>
 
     </div>
     )
@@ -75,9 +81,7 @@ class TreeNode extends React.Component{
 
   }
   
-
 }
-
 
 
 export default App;

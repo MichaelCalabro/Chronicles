@@ -28,11 +28,63 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Page {
+  background: url('Images/painting.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  background: url('Images/scripture.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.Button {
+  background-color: #3f392e;
+  border: none;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 2px;
+
+
+}
+
+.Node{
+  background-color: #8d7d60;
+  color: #ffffff;
+  border-radius: 20%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+
+}
+
+.Child-List{
+  display: table;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li{
+  display: inline;
+}
+
+p{
+  color: #ffffff;
 }
