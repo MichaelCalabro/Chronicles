@@ -29,7 +29,7 @@
 }
 
 .Page {
-  background: url('Images/painting.jpg') no-repeat center center fixed; 
+  background: url('Images/painting.jpg') no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@
 }
 
 body{
-  background: url('Images/scripture.jpg') no-repeat center center fixed; 
+  background: url('Images/scripture.jpg') no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,20 +53,37 @@ body{
   display: inline-block;
   margin: 4px 2px;
   border-radius: 2px;
-
-
+  
 }
 
-.Node{
-  background-color: #8d7d60;
+
+.Button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.Node {
+  /* background-color: #8d7d60; */
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1), 
+    rgba(0, 0, 0, 1)
+  ), url('Images/man.jpg') center;
+
+  background-size: cover;
   color: #ffffff;
-  border-radius: 20%;
-  padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  -webkit-text-stroke: 1px #ffffff;
+  font-size: 150%;
+  border-radius: 30%;
+  padding: 50px;
+  margin: 15px;
   display: inline-block;
-
+  border-style: groove;
+  border-width: 4px;
 }
+
+.Node.Main {
+  min-width: 30%;
+}
+
 
 .Child-List{
   display: table;
@@ -81,10 +98,25 @@ ul {
 
 }
 
-li{
-  display: inline;
+li {
+  display: inline-block;
 }
 
-p{
-  color: #ffffff;
+@font-face {
+  font-family: Onciale;
+  src: url('Fonts/onciale-phf/Onciale\ PhF01.ttf')
+}
+
+.Onciale {
+  font-family: Onciale, 'Times New Roman', Times, serif; 
+}
+
+h2.Onciale {
+  font-family: Onciale, 'Times New Roman', Times, serif; 
+  font-variant: small-caps;
+}
+
+h1 {
+  font-size: 300%;
+  font-variant: small-caps;
 }

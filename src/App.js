@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
 
+      <PageHeader/>
 
       <TreeNode node={chronicles.chronicles}/>
 
@@ -35,31 +36,35 @@ class TreeNode extends React.Component{
     const children = this.state.currentNode.children.map((child) =>
 
       (child.mother != null ? 
-        <li>(via {child.mother}) --
-          <button className="Button Node" onClick={() => this.goToChild(child)}>{child.name}</button>    
+        <li>
+          <h3 className="Onciale">({child.mother})</h3>
+          <button className="Button Node Onciale" onClick={() => this.goToChild(child)}>{child.name}</button>    
         </li>
         :  
         <li>
-          <button className="Button Node" onClick={() => this.goToChild(child)}>{child.name}</button>    
+          <button className="Button Node Onciale" onClick={() => this.goToChild(child)}>{child.name}</button>    
         </li>
       )
     );
 
+    //Only display description section if not null
+    const descSection = desc != null ? <div><hr/>
+    <p id="description" className="Onciale">{desc}</p></div> : null;
+
     return(
       <div className="Page">
-
-        <div className="Node">
-          <h2 id="name">{name}</h2>
-          <p id="father">Father: {father}</p>
-          <p id="mother">Mother: {mother != null ? mother : '?'}</p>
-          <p id="description">Description: {desc}</p>
+        <div className="Node Main">
+          <h2 id="name" className="Onciale">{name}</h2>
+          <p id="father" className="Onciale">Father: {father != null ? father : '?'}</p>
+          <p id="mother" className="Onciale">Mother: {mother != null ? mother : '?'}</p>
+          {descSection}
         </div>
         <div className="Child-List">
-          <p>Children:</p>
+          <h3 className="Onciale">Children:</h3>
           <ul>{children}</ul>
         </div>
 
-      <button className="Button" onClick={() => this.returnToRoot()}>Return to Adam</button>
+      <button className="Button Onciale" onClick={() => this.returnToRoot()}>Return to Adam</button>
 
     </div>
     )
@@ -81,6 +86,16 @@ class TreeNode extends React.Component{
 
   }
   
+}
+
+
+function PageHeader(){
+
+  return(
+    <header>
+      <h1 className="Onciale">Chronicles</h1>   
+    </header>
+  );
 }
 
 
