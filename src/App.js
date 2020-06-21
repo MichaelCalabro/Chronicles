@@ -8,14 +8,14 @@ function App() {
 
       <PageHeader/>
 
-      <TreeNode node={chronicles.chronicles}/>
+      <Tree node={chronicles.chronicles}/>
 
       
     </div>
   );
 }
 
-class TreeNode extends React.Component{
+class Tree extends React.Component{
 
   constructor(props){
     super(props);
@@ -23,14 +23,13 @@ class TreeNode extends React.Component{
     this.state = {
       rootNode : props.node,
       currentNode : props.node,
-      previousNode : null
+      nodePath : [props.node]
     }
-
   }
 
   render(){
     const name = this.state.currentNode.name;
-    const father = this.state.previousNode != null ? this.state.previousNode.name : null;
+    const father = this.state.nodePath.length > 1 ? this.state.nodePath[this.state.nodePath.length - 2].name : null;
     const mother = this.state.currentNode.mother;
     const desc = this.state.currentNode.decription;
     const children = this.state.currentNode.children.map((child) =>
@@ -51,6 +50,11 @@ class TreeNode extends React.Component{
     const descSection = desc != null ? <div><hr/>
     <p id="description" className="Onciale">{desc}</p></div> : null;
 
+    //Only allow going back to father if father exists
+    const fatherButton = this.state.nodePath.length > 1 ? 
+      <button className="Button Onciale" onClick={() => this.goToFather()}>Return to Father</button>
+      : null;
+
     return(
       <div className="Page">
         <div className="Node Main">
@@ -65,7 +69,7 @@ class TreeNode extends React.Component{
         </div>
 
       <button className="Button Onciale" onClick={() => this.returnToRoot()}>Return to Adam</button>
-
+      {fatherButton}
     </div>
     )
   }
@@ -73,18 +77,28 @@ class TreeNode extends React.Component{
 
   goToChild(newNode){
     this.setState({
-      previousNode : this.state.currentNode, 
-      currentNode: newNode
+      currentNode: newNode,
+      nodePath : this.state.nodePath.concat(newNode)
     });
   }
 
   returnToRoot(){
     this.setState({
-      previousNode : null, 
-      currentNode: this.state.rootNode
+      currentNode: this.state.rootNode,
+      nodePath : [this.state.rootNode]
     });
 
   }
+
+  goToFather(){
+    this.setState({
+      previousNode : this.state.currentNode, 
+      currentNode: this.state.nodePath[this.state.nodePath.length - 2],
+      nodePath : this.state.nodePath.filter((item, j) => this.state.nodePath.length - 1 !== j)
+    });
+  }
+
+
   
 }
 

@@ -1,6 +1,6 @@
 # Chronicles
 Interactive Bible genealogy web page.
 
-Genealogy currently only runs from Adam to Noah and his children.
+Genealogy currently runs from Adam to 1 Chronicles 1 : 24
 
 --NOT COMPLETE--
