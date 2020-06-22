@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
 import chronicles from './chronicles.json';
+import { render } from '@testing-library/react';
 
 function App() {
   return (
     <div className="App">
 
+    
       <PageHeader/>
 
-      <Tree node={chronicles.chronicles}/>
+      <Tree root={chronicles.chronicles}/>
 
-      
     </div>
   );
 }
@@ -21,9 +22,9 @@ class Tree extends React.Component{
     super(props);
 
     this.state = {
-      rootNode : props.node,
-      currentNode : props.node,
-      nodePath : [props.node]
+      rootNode : props.root,
+      currentNode : props.root,
+      nodePath : [props.root]
     }
   }
 
@@ -55,22 +56,42 @@ class Tree extends React.Component{
       <button className="Button Onciale" onClick={() => this.goToFather()}>Return to Father</button>
       : null;
 
+
+    const pathItems = this.state.nodePath.map((node) =>
+        (node.children.length > 0 ?
+          <div>
+            <button className="Path-Node Onciale" onClick={() => this.goBackToNode(node)}>{node.name}</button>
+            <div class="VL1"></div>
+          </div>
+          :
+          <button className="Path-Node Onciale" onClick={() => this.goBackToNode(node)}>{node.name}</button>
+        )
+    );
+
     return(
-      <div className="Page">
-        <div className="Node Main">
-          <h2 id="name" className="Onciale">{name}</h2>
-          <p id="father" className="Onciale">Father: {father != null ? father : '?'}</p>
-          <p id="mother" className="Onciale">Mother: {mother != null ? mother : '?'}</p>
-          {descSection}
-        </div>
-        <div className="Child-List">
-          <h3 className="Onciale">Children:</h3>
-          <ul>{children}</ul>
+      <div>
+        <div className="Main">
+          <div className="Page">
+            <div className="Node Main-Node">
+              <h2 id="name" className="Onciale">{name}</h2>
+              <p id="father" className="Onciale">Father: {father != null ? father : '?'}</p>
+              <p id="mother" className="Onciale">Mother: {mother != null ? mother : '?'}</p>
+              {descSection}
+            </div>
+            <div className="Child-List">
+              <h3 className="Onciale">Children:</h3>
+              <ul>{children}</ul>
+            </div>
+
+            <button className="Button Onciale" onClick={() => this.returnToRoot()}>Return to Adam</button>
+            {fatherButton}
+          </div>
         </div>
 
-      <button className="Button Onciale" onClick={() => this.returnToRoot()}>Return to Adam</button>
-      {fatherButton}
-    </div>
+        <div className="SideBar">
+          {pathItems}
+        </div>
+      </div>
     )
   }
 
@@ -90,16 +111,27 @@ class Tree extends React.Component{
 
   }
 
-  goToFather(){
+  goBackToNode(prevNode){
+    const newPath = this.state.nodePath;
+
+    while(newPath.length > 0){
+
+      if(newPath[newPath.length - 1] == prevNode){
+        break;
+      }
+
+      newPath.pop();
+    }
+
     this.setState({
-      previousNode : this.state.currentNode, 
-      currentNode: this.state.nodePath[this.state.nodePath.length - 2],
-      nodePath : this.state.nodePath.filter((item, j) => this.state.nodePath.length - 1 !== j)
-    });
+      currentNode : prevNode,
+      nodePath : newPath
+    })
   }
 
-
-  
+  goToFather(){
+    this.goBackToNode(this.state.nodePath[this.state.nodePath.length -2]);
+  }
 }
 
 
@@ -111,6 +143,7 @@ function PageHeader(){
     </header>
   );
 }
+
 
 
 export default App;

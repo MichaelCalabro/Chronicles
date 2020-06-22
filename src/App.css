@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.SideBar {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Main {
+  margin-left: 100px; /* Same as the width of the sidenav */
+  padding: 0px 4px;
+}
+
 
 
 .Page {
@@ -28,8 +46,7 @@ body{
   text-align: center;
   display: inline-block;
   margin: 4px 2px;
-  border-radius: 2px;
-  
+  border-radius: 2px; 
 }
 
 
@@ -56,10 +73,25 @@ body{
   border-width: 4px;
 }
 
-.Node.Main {
+.Node:focus{
+  outline: none;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.Node.Main-Node {
   min-width: 30%;
 }
 
+.Path-Node {
+  background-color: #00000070;
+  color: #ffffff;
+  border-style: ridge;
+}
+
+
+.Path-Node:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
 
 .Child-List{
   display: table;
@@ -88,7 +120,6 @@ li {
 }
 
 h2.Onciale {
-  font-family: Onciale, 'Times New Roman', Times, serif; 
   font-variant: small-caps;
 }
 
@@ -99,4 +130,20 @@ h1 {
 
 h3 {
   font-size: 150%;
+}
+
+.VL1 {
+  border-left: 4px solid #ffffff;
+  height: 10px;
+  left: 50%;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
 }
