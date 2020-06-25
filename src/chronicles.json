@@ -305,7 +305,88 @@
 																																														"mother": "Leah",
 																																														"decription": null,
 																																														"children": [
-																																															
+																																															{
+																																																"name": "Nemuel",
+																																																"mother": "Leah",
+																																																"decription": null,
+																																																"children": [
+																																																	
+																																																]
+																																															},
+																																															{
+																																																"name": "Jamin",
+																																																"mother": "Leah",
+																																																"decription": null,
+																																																"children": [
+																																																	
+																																																]
+																																															},
+																																															{
+																																																"name": "Jarib",
+																																																"mother": "Leah",
+																																																"decription": null,
+																																																"children": [
+																																																	
+																																																]
+																																															},
+																																															{
+																																																"name": "Zerah",
+																																																"mother": "Leah",
+																																																"decription": null,
+																																																"children": [
+																																																	
+																																																]
+																																															},
+																																															{
+																																																"name": "Shaul",
+																																																"mother": "Leah",
+																																																"decription": null,
+																																																"children": [
+																																																	{
+																																																		"name": "Shallum",
+																																																		"mother": "Leah",
+																																																		"decription": null,
+																																																		"children": [
+																																																			{
+																																																				"name": "Mibsam",
+																																																				"mother": "Leah",
+																																																				"decription": null,
+																																																				"children": [
+																																																					{
+																																																						"name": "Mishma",
+																																																						"mother": "Leah",
+																																																						"decription": null,
+																																																						"children": [
+																																																							{
+																																																								"name": "Hammuel",
+																																																								"mother": "Leah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									{
+																																																										"name": "Zaccur",
+																																																										"mother": "Leah",
+																																																										"decription": null,
+																																																										"children": [
+																																																											{
+																																																												"name": "Shimei",
+																																																												"mother": "Leah",
+																																																												"decription": null,
+																																																												"children": [
+																																																													
+																																																												]
+																																																											}
+																																																										]
+																																																									}
+																																																								]
+																																																							}
+																																																						]
+																																																					}
+																																																				]
+																																																			}
+																																																		]
+																																																	}
+																																																]
+																																															}
 																																														]
 																																													},
 																																													{
@@ -630,9 +711,603 @@
 																																																																	{
 																																																																		"name": "David",
 																																																																		"mother": null,
-																																																																		"decription": null,
+																																																																		"decription": "Israel's Greatest King",
 																																																																		"children": [
-																																																																			
+																																																																			{
+																																																																				"name": "Amnon",
+																																																																				"mother": "Ahinoam",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Daniel",
+																																																																				"mother": "Abigail",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Absalom",
+																																																																				"mother": "Maacah",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Adonijah",
+																																																																				"mother": "Haggith",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Shephatiah",
+																																																																				"mother": "Abital",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Ithream",
+																																																																				"mother": "Eglah",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Shimea",
+																																																																				"mother": "Bathsheba",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Shobab",
+																																																																				"mother": "Bathsheba",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Nathan",
+																																																																				"mother": "Bathsheba",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Solomon",
+																																																																				"mother": "Bathsheba",
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					{
+																																																																						"name": "Rehoboam",
+																																																																						"mother": null,
+																																																																						"decription": null,
+																																																																						"children": [
+																																																																							{
+																																																																								"name": "Abijah",
+																																																																								"mother": null,
+																																																																								"decription": null,
+																																																																								"children": [
+																																																																									{
+																																																																										"name": "Asa",
+																																																																										"mother": null,
+																																																																										"decription": null,
+																																																																										"children": [
+																																																																											{
+																																																																												"name": "Jehoshaphat",
+																																																																												"mother": null,
+																																																																												"decription": null,
+																																																																												"children": [
+																																																																													{
+																																																																														"name": "Jehoram",
+																																																																														"mother": null,
+																																																																														"decription": null,
+																																																																														"children": [
+																																																																															{
+																																																																																"name": "Ahaziah",
+																																																																																"mother": null,
+																																																																																"decription": null,
+																																																																																"children": [
+																																																																																	{
+																																																																																		"name": "Joash",
+																																																																																		"mother": null,
+																																																																																		"decription": null,
+																																																																																		"children": [
+																																																																																			{
+																																																																																				"name": "Amaziah",
+																																																																																				"mother": null,
+																																																																																				"decription": null,
+																																																																																				"children": [
+																																																																																					{
+																																																																																						"name": "Uzziah",
+																																																																																						"mother": null,
+																																																																																						"decription": null,
+																																																																																						"children": [
+																																																																																							{
+																																																																																								"name": "Jotham",
+																																																																																								"mother": null,
+																																																																																								"decription": null,
+																																																																																								"children": [
+																																																																																									{
+																																																																																										"name": "Ahaz",
+																																																																																										"mother": null,
+																																																																																										"decription": null,
+																																																																																										"children": [
+																																																																																											{
+																																																																																												"name": "Hezekiah",
+																																																																																												"mother": null,
+																																																																																												"decription": null,
+																																																																																												"children": [
+																																																																																													{
+																																																																																														"name": "Manasseh",
+																																																																																														"mother": null,
+																																																																																														"decription": null,
+																																																																																														"children": [
+																																																																																															{
+																																																																																																"name": "Amon",
+																																																																																																"mother": null,
+																																																																																																"decription": null,
+																																																																																																"children": [
+																																																																																																	{
+																																																																																																		"name": "Josiah",
+																																																																																																		"mother": null,
+																																																																																																		"decription": null,
+																																																																																																		"children": [
+																																																																																																			{
+																																																																																																				"name": "Johanan",
+																																																																																																				"mother": null,
+																																																																																																				"decription": null,
+																																																																																																				"children": [
+																																																																																																					
+																																																																																																				]
+																																																																																																			},
+																																																																																																			{
+																																																																																																				"name": "Jehoiakim",
+																																																																																																				"mother": null,
+																																																																																																				"decription": null,
+																																																																																																				"children": [
+																																																																																																					{
+																																																																																																						"name": "Jehoiachin",
+																																																																																																						"mother": null,
+																																																																																																						"decription": null,
+																																																																																																						"children": [
+																																																																																																							{
+																																																																																																								"name": "Shealtiel",
+																																																																																																								"mother": null,
+																																																																																																								"decription": null,
+																																																																																																								"children": [
+																																																																																																									
+																																																																																																								]
+																																																																																																							},
+																																																																																																							{
+																																																																																																								"name": "Malchiram",
+																																																																																																								"mother": null,
+																																																																																																								"decription": null,
+																																																																																																								"children": [
+																																																																																																									
+																																																																																																								]
+																																																																																																							},
+																																																																																																							{
+																																																																																																								"name": "Pedaiah",
+																																																																																																								"mother": null,
+																																																																																																								"decription": null,
+																																																																																																								"children": [
+																																																																																																									{
+																																																																																																										"name": "Zerubbabel",
+																																																																																																										"mother": null,
+																																																																																																										"decription": null,
+																																																																																																										"children": [
+																																																																																																											{
+																																																																																																												"name": "Meshullam",
+																																																																																																												"mother": null,
+																																																																																																												"decription": null,
+																																																																																																												"children": [
+																																																																																																													
+																																																																																																												]
+																																																																																																											},
+																																																																																																											{
+																																																																																																												"name": "Hananiah",
+																																																																																																												"mother": null,
+																																																																																																												"decription": null,
+																																																																																																												"children": [
+																																																																																																													{
+																																																																																																														"name": "Pelatiah",
+																																																																																																														"mother": null,
+																																																																																																														"decription": null,
+																																																																																																														"children": [
+																																																																																																															
+																																																																																																														]
+																																																																																																													},
+																																																																																																													{
+																																																																																																														"name": "Jeshaiah",
+																																																																																																														"mother": null,
+																																																																																																														"decription": null,
+																																																																																																														"children": [
+																																																																																																															{
+																																																																																																																"name": "Rephaiah",
+																																																																																																																"mother": null,
+																																																																																																																"decription": null,
+																																																																																																																"children": [
+																																																																																																																	{
+																																																																																																																		"name": "Arnan",
+																																																																																																																		"mother": null,
+																																																																																																																		"decription": null,
+																																																																																																																		"children": [
+																																																																																																																			{
+																																																																																																																				"name": "Obadiah",
+																																																																																																																				"mother": null,
+																																																																																																																				"decription": null,
+																																																																																																																				"children": [
+																																																																																																																					{
+																																																																																																																						"name": "Shecaniah",
+																																																																																																																						"mother": null,
+																																																																																																																						"decription": null,
+																																																																																																																						"children": [
+																																																																																																																							{
+																																																																																																																								"name": "Shemaiah",
+																																																																																																																								"mother": null,
+																																																																																																																								"decription": null,
+																																																																																																																								"children": [
+																																																																																																																									{
+																																																																																																																										"name": "Hattush",
+																																																																																																																										"mother": null,
+																																																																																																																										"decription": null,
+																																																																																																																										"children": [
+																																																																																																																											
+																																																																																																																										]
+																																																																																																																									},
+																																																																																																																									{
+																																																																																																																										"name": "Igal",
+																																																																																																																										"mother": null,
+																																																																																																																										"decription": null,
+																																																																																																																										"children": [
+																																																																																																																											
+																																																																																																																										]
+																																																																																																																									},
+																																																																																																																									{
+																																																																																																																										"name": "Bariah",
+																																																																																																																										"mother": null,
+																																																																																																																										"decription": null,
+																																																																																																																										"children": [
+																																																																																																																											
+																																																																																																																										]
+																																																																																																																									},
+																																																																																																																									{
+																																																																																																																										"name": "Neariah",
+																																																																																																																										"mother": null,
+																																																																																																																										"decription": null,
+																																																																																																																										"children": [
+																																																																																																																											{
+																																																																																																																												"name": "Elioenai",
+																																																																																																																												"mother": null,
+																																																																																																																												"decription": null,
+																																																																																																																												"children": [
+																																																																																																																													{
+																																																																																																																														"name": "Hodaviah",
+																																																																																																																														"mother": null,
+																																																																																																																														"decription": null,
+																																																																																																																														"children": [
+																																																																																																																															
+																																																																																																																														]
+																																																																																																																													},
+																																																																																																																													{
+																																																																																																																														"name": "Eliashib",
+																																																																																																																														"mother": null,
+																																																																																																																														"decription": null,
+																																																																																																																														"children": [
+																																																																																																																															
+																																																																																																																														]
+																																																																																																																													},
+																																																																																																																													{
+																																																																																																																														"name": "Pelaiah",
+																																																																																																																														"mother": null,
+																																																																																																																														"decription": null,
+																																																																																																																														"children": [
+																																																																																																																															
+																																																																																																																														]
+																																																																																																																													},
+																																																																																																																													{
+																																																																																																																														"name": "Akkub",
+																																																																																																																														"mother": null,
+																																																																																																																														"decription": null,
+																																																																																																																														"children": [
+																																																																																																																															
+																																																																																																																														]
+																																																																																																																													},
+																																																																																																																													{
+																																																																																																																														"name": "Johanan",
+																																																																																																																														"mother": null,
+																																																																																																																														"decription": null,
+																																																																																																																														"children": [
+																																																																																																																															
+																																																																																																																														]
+																																																																																																																													},
+																																																																																																																													{
+																																																																																																																														"name": "Delaiah",
+																																																																																																																														"mother": null,
+																																																																																																																														"decription": null,
+																																																																																																																														"children": [
+																																																																																																																															
+																																																																																																																														]
+																																																																																																																													},
+																																																																																																																													{
+																																																																																																																														"name": "Anani",
+																																																																																																																														"mother": null,
+																																																																																																																														"decription": null,
+																																																																																																																														"children": [
+																																																																																																																															
+																																																																																																																														]
+																																																																																																																													}
+																																																																																																																												]
+																																																																																																																											},
+																																																																																																																											{
+																																																																																																																												"name": "Hizkiah",
+																																																																																																																												"mother": null,
+																																																																																																																												"decription": null,
+																																																																																																																												"children": [
+																																																																																																																													
+																																																																																																																												]
+																																																																																																																											},
+																																																																																																																											{
+																																																																																																																												"name": "Azrikam",
+																																																																																																																												"mother": null,
+																																																																																																																												"decription": null,
+																																																																																																																												"children": [
+																																																																																																																													
+																																																																																																																												]
+																																																																																																																											}
+																																																																																																																										]
+																																																																																																																									},
+																																																																																																																									{
+																																																																																																																										"name": "Shaphat",
+																																																																																																																										"mother": null,
+																																																																																																																										"decription": null,
+																																																																																																																										"children": [
+																																																																																																																											
+																																																																																																																										]
+																																																																																																																									}
+																																																																																																																								]
+																																																																																																																							}
+																																																																																																																						]
+																																																																																																																					}
+																																																																																																																				]
+																																																																																																																			}
+																																																																																																																		]
+																																																																																																																	}
+																																																																																																																]
+																																																																																																															}
+																																																																																																														]
+																																																																																																													}
+																																																																																																												]
+																																																																																																											},
+																																																																																																											{
+																																																																																																												"name": "Hashubah",
+																																																																																																												"mother": null,
+																																																																																																												"decription": null,
+																																																																																																												"children": [
+																																																																																																													
+																																																																																																												]
+																																																																																																											},
+																																																																																																											{
+																																																																																																												"name": "Ohel",
+																																																																																																												"mother": null,
+																																																																																																												"decription": null,
+																																																																																																												"children": [
+																																																																																																													
+																																																																																																												]
+																																																																																																											},
+																																																																																																											{
+																																																																																																												"name": "Berechiah",
+																																																																																																												"mother": null,
+																																																																																																												"decription": null,
+																																																																																																												"children": [
+																																																																																																													
+																																																																																																												]
+																																																																																																											},
+																																																																																																											{
+																																																																																																												"name": "Hasadiah",
+																																																																																																												"mother": null,
+																																																																																																												"decription": null,
+																																																																																																												"children": [
+																																																																																																													
+																																																																																																												]
+																																																																																																											},
+																																																																																																											{
+																																																																																																												"name": "Jushab Hesed",
+																																																																																																												"mother": null,
+																																																																																																												"decription": null,
+																																																																																																												"children": [
+																																																																																																													
+																																																																																																												]
+																																																																																																											}
+																																																																																																										]
+																																																																																																									},
+																																																																																																									{
+																																																																																																										"name": "Shimei",
+																																																																																																										"mother": null,
+																																																																																																										"decription": null,
+																																																																																																										"children": [
+																																																																																																											
+																																																																																																										]
+																																																																																																									}
+																																																																																																								]
+																																																																																																							},
+																																																																																																							{
+																																																																																																								"name": "Shenazzar",
+																																																																																																								"mother": null,
+																																																																																																								"decription": null,
+																																																																																																								"children": [
+																																																																																																									
+																																																																																																								]
+																																																																																																							},
+																																																																																																							{
+																																																																																																								"name": "Jekamiah",
+																																																																																																								"mother": null,
+																																																																																																								"decription": null,
+																																																																																																								"children": [
+																																																																																																									
+																																																																																																								]
+																																																																																																							},
+																																																																																																							{
+																																																																																																								"name": "Hoshama",
+																																																																																																								"mother": null,
+																																																																																																								"decription": null,
+																																																																																																								"children": [
+																																																																																																									
+																																																																																																								]
+																																																																																																							},
+																																																																																																							{
+																																																																																																								"name": "Nedabiah",
+																																																																																																								"mother": null,
+																																																																																																								"decription": null,
+																																																																																																								"children": [
+																																																																																																									
+																																																																																																								]
+																																																																																																							}
+																																																																																																						]
+																																																																																																					},
+																																																																																																					{
+																																																																																																						"name": "Zedekiah",
+																																																																																																						"mother": null,
+																																																																																																						"decription": null,
+																																																																																																						"children": [
+																																																																																																							
+																																																																																																						]
+																																																																																																					}
+																																																																																																				]
+																																																																																																			},
+																																																																																																			{
+																																																																																																				"name": "Zedekiah",
+																																																																																																				"mother": null,
+																																																																																																				"decription": null,
+																																																																																																				"children": [
+																																																																																																					
+																																																																																																				]
+																																																																																																			},
+																																																																																																			{
+																																																																																																				"name": "Joahaz",
+																																																																																																				"mother": null,
+																																																																																																				"decription": null,
+																																																																																																				"children": [
+																																																																																																					
+																																																																																																				]
+																																																																																																			}
+																																																																																																		]
+																																																																																																	}
+																																																																																																]
+																																																																																															}
+																																																																																														]
+																																																																																													}
+																																																																																												]
+																																																																																											}
+																																																																																										]
+																																																																																									}
+																																																																																								]
+																																																																																							}
+																																																																																						]
+																																																																																					}
+																																																																																				]
+																																																																																			}
+																																																																																		]
+																																																																																	}
+																																																																																]
+																																																																															}
+																																																																														]
+																																																																													}
+																																																																												]
+																																																																											}
+																																																																										]
+																																																																									}
+																																																																								]
+																																																																							}
+																																																																						]
+																																																																					}
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Ibhar",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Elishua",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Elpelet",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Nogah",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Nepheg",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Japhia",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Elishama",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Eliada",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			},
+																																																																			{
+																																																																				"name": "Eliphelet",
+																																																																				"mother": null,
+																																																																				"decription": null,
+																																																																				"children": [
+																																																																					
+																																																																				]
+																																																																			}
 																																																																		]
 																																																																	}
 																																																																]
@@ -759,7 +1434,36 @@
 																																																								"mother": null,
 																																																								"decription": "Founded Kiriath Jearim.",
 																																																								"children": [
-																																																									
+																																																									{
+																																																										"name": "Reaiah",
+																																																										"mother": null,
+																																																										"decription": null,
+																																																										"children": [
+																																																											{
+																																																												"name": "Jahath",
+																																																												"mother": null,
+																																																												"decription": null,
+																																																												"children": [
+																																																													{
+																																																														"name": "Ahumai",
+																																																														"mother": null,
+																																																														"decription": "Ancestor of the people who lived in Zorah",
+																																																														"children": [
+																																																															
+																																																														]
+																																																													},
+																																																													{
+																																																														"name": "Lahad",
+																																																														"mother": null,
+																																																														"decription": "Ancestor of the people who lived in Zorah",
+																																																														"children": [
+																																																															
+																																																														]
+																																																													}
+																																																												]
+																																																											}
+																																																										]
+																																																									}
 																																																								]
 																																																							},
 																																																							{
@@ -800,7 +1504,62 @@
 																																																						"mother": "Ephrath",
 																																																						"decription": "Founded the town of Tekoa.",
 																																																						"children": [
-																																																							
+																																																							{
+																																																								"name": "Ahuzzam",
+																																																								"mother": "Naarah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									
+																																																								]
+																																																							},
+																																																							{
+																																																								"name": "Hepher",
+																																																								"mother": "Naarah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									
+																																																								]
+																																																							},
+																																																							{
+																																																								"name": "Temeni",
+																																																								"mother": "Naarah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									
+																																																								]
+																																																							},
+																																																							{
+																																																								"name": "Haahashtari",
+																																																								"mother": "Naarah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									
+																																																								]
+																																																							},
+																																																							{
+																																																								"name": "Zereth",
+																																																								"mother": "Helah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									
+																																																								]
+																																																							},
+																																																							{
+																																																								"name": "Izhar",
+																																																								"mother": "Helah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									
+																																																								]
+																																																							},
+																																																							{
+																																																								"name": "Ethnan",
+																																																								"mother": "Helah",
+																																																								"decription": null,
+																																																								"children": [
+																																																									
+																																																								]
+																																																							}
 																																																						]
 																																																					},
 																																																					{

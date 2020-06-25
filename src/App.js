@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import chronicles from './chronicles.json';
-import { render } from '@testing-library/react';
 
 function App() {
   return (
