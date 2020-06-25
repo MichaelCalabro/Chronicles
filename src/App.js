@@ -36,7 +36,7 @@ class Tree extends React.Component{
 
       (child.mother != null ? 
         <li>
-          <h3 className="Onciale">({child.mother})</h3>
+          <h3 className="Onciale Note">({child.mother})</h3>
           <button className="Button Node Onciale" onClick={() => this.goToChild(child)}>{child.name}</button>    
         </li>
         :  
@@ -45,6 +45,12 @@ class Tree extends React.Component{
         </li>
       )
     );
+
+    //Only display child header if > 0 children
+    const childHeader = this.state.currentNode.children.length > 0 ?
+      <h3 className="Onciale Inter">Sons:</h3>
+    :
+      null;
 
     //Only display description section if not null
     const descSection = desc != null ? <div><hr/>
@@ -55,7 +61,7 @@ class Tree extends React.Component{
       <button className="Button Onciale" onClick={() => this.goToFather()}>Return to Father</button>
       : null;
 
-
+    //Node path from Adam to current node    
     const pathItems = this.state.nodePath.map((node) =>
         (node.children.length > 0 ?
           <div>
@@ -78,7 +84,7 @@ class Tree extends React.Component{
               {descSection}
             </div>
             <div className="Child-List">
-              <h3 className="Onciale">Children:</h3>
+              {childHeader}
               <ul>{children}</ul>
             </div>
 

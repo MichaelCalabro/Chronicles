@@ -3,7 +3,7 @@
 }
 
 .SideBar {
-  height: 100%;
+  height: 98%;
   width: 100px;
   position: fixed;
   z-index: 1;
@@ -75,7 +75,7 @@ body{
 
 .Node:focus{
   outline: none;
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.08);
 }
 
 .Node.Main-Node {
@@ -87,7 +87,6 @@ body{
   color: #ffffff;
   border-style: ridge;
 }
-
 
 .Path-Node:hover {
   background: rgba(255, 255, 255, 0.4);
@@ -117,6 +116,7 @@ li {
 
 .Onciale {
   font-family: Onciale, 'Times New Roman', Times, serif; 
+  text-shadow: 2px 2px 8px #d3d3d3;
 }
 
 h2.Onciale {
@@ -130,6 +130,19 @@ h1 {
 
 h3 {
   font-size: 150%;
+}
+
+h3.Inter {
+  font-size: 200%;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #097292;
+}
+
+
+.Note {
+  color: #c4c4c4;
+  text-shadow: 2px 2px 8px #097292;
+  margin-bottom: 1px;
 }
 
 .VL1 {
