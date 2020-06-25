@@ -20,6 +20,11 @@
   padding: 0px 4px;
 }
 
+header {
+  margin-left: 100px; /* Same as the width of the sidenav */
+  font-size: 20px;
+  font-size: min(2vw, 20px);
+}
 
 
 .Page {
@@ -55,7 +60,6 @@ body{
 }
 
 .Node {
-  /* background-color: #8d7d60; */
   background: linear-gradient(
     rgba(0, 0, 0, 0.1), 
     rgba(0, 0, 0, 1)
@@ -71,15 +75,20 @@ body{
   display: inline-block;
   border-style: groove;
   border-width: 4px;
+
+  font-size: min(3vw, 150%);
+  padding: min(4vw, 50px);
+
 }
 
 .Node:focus{
   outline: none;
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 .Node.Main-Node {
-  min-width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .Path-Node {
@@ -133,9 +142,9 @@ h3 {
 }
 
 h3.Inter {
-  font-size: 200%;
   color: #ffffff;
   text-shadow: 2px 2px 8px #097292;
+  font-size: min(4vw, 200%);
 }
 
 
@@ -143,6 +152,7 @@ h3.Inter {
   color: #c4c4c4;
   text-shadow: 2px 2px 8px #097292;
   margin-bottom: 1px;
+  font-size: min(4vw, 150%);
 }
 
 .VL1 {

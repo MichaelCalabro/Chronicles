@@ -88,7 +88,6 @@ class Tree extends React.Component{
               <ul>{children}</ul>
             </div>
 
-            <button className="Button Onciale" onClick={() => this.returnToRoot()}>Return to Adam</button>
             {fatherButton}
           </div>
         </div>
