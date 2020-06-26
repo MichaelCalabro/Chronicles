@@ -1,6 +1,7 @@
 # Chronicles
 Interactive Bible genealogy web page.
 
-Genealogy currently runs from Adam to 1 Chronicles 7 : 1
+According to the first book of Chronicles.
 
---NOT COMPLETE--
+1 Chronicles 1 : 1 - 1 Chronicles 8 : 1
+
