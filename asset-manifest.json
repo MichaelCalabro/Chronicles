@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Chronicles/static/css/main.13aca09b.chunk.css",
-    "main.js": "/Chronicles/static/js/main.1a8a9c56.chunk.js",
-    "main.js.map": "/Chronicles/static/js/main.1a8a9c56.chunk.js.map",
+    "main.js": "/Chronicles/static/js/main.35dc96d9.chunk.js",
+    "main.js.map": "/Chronicles/static/js/main.35dc96d9.chunk.js.map",
     "runtime-main.js": "/Chronicles/static/js/runtime-main.20e8cc76.js",
     "runtime-main.js.map": "/Chronicles/static/js/runtime-main.20e8cc76.js.map",
     "static/js/2.b97980e1.chunk.js": "/Chronicles/static/js/2.b97980e1.chunk.js",
     "static/js/2.b97980e1.chunk.js.map": "/Chronicles/static/js/2.b97980e1.chunk.js.map",
     "index.html": "/Chronicles/index.html",
-    "precache-manifest.750641634f1a76a94e1b81c8d9182e5f.js": "/Chronicles/precache-manifest.750641634f1a76a94e1b81c8d9182e5f.js",
+    "precache-manifest.729e9e1f055cea8df0da575e3c723c5c.js": "/Chronicles/precache-manifest.729e9e1f055cea8df0da575e3c723c5c.js",
     "service-worker.js": "/Chronicles/service-worker.js",
     "static/css/main.13aca09b.chunk.css.map": "/Chronicles/static/css/main.13aca09b.chunk.css.map",
     "static/js/2.b97980e1.chunk.js.LICENSE.txt": "/Chronicles/static/js/2.b97980e1.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.20e8cc76.js",
     "static/js/2.b97980e1.chunk.js",
     "static/css/main.13aca09b.chunk.css",
-    "static/js/main.1a8a9c56.chunk.js"
+    "static/js/main.35dc96d9.chunk.js"
   ]
 }
